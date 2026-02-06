@@ -1,0 +1,108 @@
+Exercise 1
+1. In index.html, in between the body tags, add a tag for:
+header
+main
+footer
+2. In between the header tags, add an image tag for:
+putti-pizza-oval-logo.png
+with alt attribute: 
+Putti Pizza Ristorante
+Don't forget the file path
+
+Exercise 2
+1. In style.css, select the image tag inside the header using the child combinator
+Set width to 500px
+2. Select the header
+Set padding 60px 0
+Set background-image to header-bg
+Set background-repeat to no-repeat
+Set background-position to center center
+Set background-size to cover
+
+Exercise 3
+1. In index.html, in between the main tags, add a div tag with class choices
+In between the div tags:
+Add an h3 tag with text Sauces
+Add an unordered list tag and list item tags for the sauces
+Find the pizza item text in site-content.txt
+2. After the first div, add 2 more div tags
+Inside the 2 new divs, add h3, ul, and li tags for vegetable and meat toppings
+Find the pizza item text in site-content.txt
+3. In style.css, select the div tags by their classname 
+Set display to inline-block
+Set vertical-align to top
+Set margin to 30px
+Set padding to 5px 30px
+Set width to 210px
+Set border-radius to 20px
+Set text-align to left
+Set color to black
+Set background-color to white
+4. Select the ul tag 
+Set list-style-type to circle
+
+Exercise 4
+1. n index.html, before the main closing tag, add a section tag
+In between the section tags:
+Add a div tag
+Inside the div, add an h2 tag with with id order-heading
+and text How to Order
+2. Inside the div, after the h2 tag:
+Add an ol tag and list item tags for the steps
+Find the pizza order text in
+site-content.txt
+After the ol, add an h2 tag with text Call: 206-432-9876
+3. After the closing div tag, but before the closing section tag, add an image tag for:
+pizza-chef.png
+Don't forget the alt attribute and file path.
+4. In style.css, select the section tag 
+Set margin to 60px 0 0 0
+Set padding to 40px
+Set background-color to #231f20
+Select the h2 tag by its id
+Set font-size to 2.8em
+5. Select the div tag using the child combinator 
+Set display to inline-block
+Set width to 30%
+Select the image using the child combinator
+Set width to 50%
+6. Select the ol tag 
+Set margin to 0 auto
+Set width to 210px
+Select the li tags using the child combinator
+Set margin to 15px 0
+Set text-align to left
+Set list-style-position to inside
+
+Exercise 5
+1. In index.html. in between the footer tags, add a p tag
+with text: ©Putti Pizza Ristorante 2024. All rights reserved.
+2. In style.css, select the footer tag
+Set margin to 0
+Set padding to 30px
+Set background-color to black
+Set font-weight to lighter
+Set font-size to 0.9em
+Set color to #999999
+______________________________________________
+
+Practice Session
+Create a menu page for Putti Pizza Ristorante
+Refer to the screenshot for expected output
+
+Exercise 1
+1. Create a new file menu.html, change the title text and link to the style sheet.
+2. In between the header tags, add an h1 tag with unique identifier
+3. In style.css, style the h1 tag to look like the example in the screenshot.
+You'll need to size it and use the Italian flag picture as a background image
+
+Exercise 2
+1. Add the categories Salads, Antipasto, and Pasta and the list of dishes for each one
+Refer to the screenshot and site-content.txt for the menu text and styling
+Use h3 tags for the headings
+Use ul tags for the lists of dishes
+Inside the lists, use h4 tags for the dish names, and p tags for the descriptions
+Hint, as these menus are styled the same, assign a class to ul tags and make use of the child combinator
+2. In style.css, style the lists to match the screenshot
+Hint you will need to adjust margin on the text tags, and use various other styles for the lists.
+3. Add the How to Order section and footer to the menu page.
